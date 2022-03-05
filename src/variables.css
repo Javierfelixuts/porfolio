@@ -1,0 +1,52 @@
+:root{
+    /* 
+Paleta de colores
+#ff8f4b --- orange
+#f1bc52 --- yellow
+#9ad3da --- skyblue
+#00a8a8 --- bluesea
+#03444a --- bluedark
+
+*/
+/* --blueDark: #03444a;
+--blueDarkx2: #033f44;
+--blueSea: #00a8a8;
+--blueSky: #9ad3da;
+--yellowGold: #f1bc52;
+--orangePeach: #ff8f4b; */
+
+
+
+--blueDark: #673ab7;
+--blueDarkx2: #f1bc52;
+--orangePeach: #03a9f4;
+
+
+
+
+    
+}
+
+/* Estas propiedades modifican el scroll */
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar:hover{
+    width: 10px;
+  } 
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--yellowGold);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--blueDark);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--orangePeach);
+  }

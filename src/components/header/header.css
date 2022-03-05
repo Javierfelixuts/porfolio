@@ -1,0 +1,132 @@
+@import '../../variables.css';
+.relleno{
+    width: 100%;
+    height: 150px;
+}
+header{
+    width: 100%;
+    background-color: var(--blueDark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--orangePeach);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header > nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid var(--orangePeach);
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: var(--orangePeach);
+}
+header > nav > ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--orangePeach);
+}
+a:hover{
+    background-color: var(--blueDarkx2);
+}
+.nav-link{
+    background-color: var(--blueDarkx2);
+}
+.icon-menu{
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+}
+.icon-menu > .bar-icon__menu{
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: var(--orangePeach);
+}
+@media only screen and (max-width: 600px) {
+    .relleno{
+        height: 0px;
+    }
+    header{
+        max-height: 0;
+        overflow: hidden;
+        border-bottom-left-radius: 22px;
+        border-bottom-right-radius: 22px;
+        position: sticky;
+        top: 30px;
+        left: 0;
+        opacity: 1;
+        
+        
+    }
+    header.openMenu{
+        max-height: 500px;
+        transition: max-height .5s ease-in;
+    }
+    header.closeMenu{
+        max-height: 0;
+        transition: max-height .5s ease-out; 
+    }
+    .icon-menu{
+        display: block;
+        width: 100%;
+        background: var(--blueDark);
+        color: var(--orangePeach);
+        font-size: 15px;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    nav, .content__links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    a{
+        padding: 5px 5px;
+    }
+    li{
+        margin-top: 20px;
+    }
+    li:nth-last-of-type(1){
+        margin-bottom: 20px;
+    }
+  }
+
+/* 
+LINK
+REACT <a href="https://www.flaticon.com/free-icons/atom" title="atom icons">Atom icons created by srip - Flaticon</a>
+BOOSTRAP <a href="https://www.flaticon.com/free-icons/bootstrap" title="bootstrap icons">Bootstrap icons created by Freepik - Flaticon</a>
+JS <a href="https://www.flaticon.es/iconos-gratis/js" title="js iconos">Js iconos creados por Freepik - Flaticon</a>
+CSS 3 <a href="https://www.flaticon.es/iconos-gratis/css" title="css iconos">Css iconos creados por Pixel perfect - Flaticon</a>
+HTML 5 <a href="https://www.flaticon.es/iconos-gratis/html-5" title="html 5 iconos">Html 5 iconos creados por Pixel perfect - Flaticon</a>
+*/

@@ -1,0 +1,11 @@
+para cambiar el color de los SVG se necesita poner la propiedad fill a current 
+de la siguiente manera
+
+fill="current"
+
+esto para que respete el color que agreges en css
+de la siguiente manera
+
+.class{
+    fill: tuColor
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="30mm" height="15.905mm" version="1.1" viewBox="0 0 36.108 35.905" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipath_lpe_path-effect5945-4">
+   <path d="m7.3981 7.2953 21.983 0.073784-0.46453 3.5551-16.932 0.01522 0.37805 4.3027 16.651 0.17212-1.3926 11.788-9.633 2.3473-8.6082-2.3309-0.56682-6.1734 4.0225 0.08993 0.18978 2.9932 5.2398 1.492 5.4243-1.408 0.55664-5.1454-15.622 0.01404z" display="none" fill="none" stroke="#000" stroke-width=".26458px"/>
+   <path class="powerclip" d="m-4.4367-4.4337h46.108v45.905h-46.108zm11.835 11.729 1.2267 11.785 15.622-0.01404-0.55664 5.1454-5.4243 1.408-5.2398-1.492-0.18978-2.9932-4.0225-0.08993 0.56682 6.1734 8.6082 2.3309 9.633-2.3473 1.3926-11.788-16.651-0.17212-0.37805-4.3027 16.932-0.01522 0.46453-3.5551z" fill="none" stroke="#000" stroke-width=".26458px"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(7.436 6.169)">
+  <path transform="translate(-7.9994 -6.7353)" d="m0.56333 0.56627 3.0219 31.709 14.41 4.1965 15.057-3.8489 3.6196-31.902z" clip-path="url(#clipath_lpe_path-effect5945-4)" fill="current"/>
+ </g>
+</svg>

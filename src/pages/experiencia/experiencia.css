@@ -1,0 +1,35 @@
+.triangle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.content__experiencia{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.363);
+    
+    
+}
+.explicacion__experiencia{
+    width: 50%;
+    text-align: justify;
+    margin: 0 0 0 100px;
+}
+.mb-6{
+    margin-bottom: 60px;
+}
+.overflow{
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 800px){
+    .explicacion__experiencia{
+        margin: 0;
+        width: 100%;
+    }
+}

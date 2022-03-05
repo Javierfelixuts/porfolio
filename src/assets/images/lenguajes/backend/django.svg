@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="30mm" height="15mm" version="1.1" viewBox="0 0 33.971 33.971" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipath_lpe_path-effect107853">
+   <g display="none">
+    <path d="m15.194 13.419v-5.6225h3.5668v17.096s-10.97 3.3828-11.102-5.91c-0.096989-6.8132 7.5356-5.563 7.5356-5.563z" clip-path="url(#clipPath107837)" fill="current" stroke="current" stroke-width=".26458px"/>
+    <path d="m17.391 28.796 3.2095 1.6177 1.9831-1.3908s1.2226-1.1917 1.5511-3.7386c0.32844-2.5469 0-11.807 0-11.807h-3.4832v9.76s0.27621 3.241-1.7401 4.5658-1.5205 0.99356-1.5205 0.99356z" clip-path="url(#clipPath107833)" fill="none" stroke="#000" stroke-width=".26458px"/>
+    <rect x="20.932" y="7.9321" width="3.1351" height="3.4734" d="m 20.932272,7.9320712 h 3.135054 v 3.4734298 h -3.135054 z" fill="current" stroke="current" stroke-width=".4"/>
+   </g>
+   <path class="powerclip" d="m-4.8003-3.7396h43.971v43.971h-43.971zm19.994 17.159s-7.6326-1.2501-7.5356 5.563c0.13229 9.2928 11.102 5.91 11.102 5.91v-17.096h-3.5668zm2.1966 15.377 3.2095 1.6177 1.9831-1.3908s1.2226-1.1917 1.5511-3.7386c0.32844-2.5469 0-11.807 0-11.807h-3.4832v9.76s0.27621 3.241-1.7401 4.5658-1.5205 0.99356-1.5205 0.99356zm3.5415-20.864v3.4734h3.1351v-3.4734z"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(-6.663 2.3175)">
+  <g transform="translate(6.4633 -3.5779)" fill="current">
+   <path d="m33.971 18.246a16.786 16.786 0 0 1-16.786 16.786 16.786 16.786 0 0 1-16.786-16.786 16.786 16.786 0 0 1 16.786-16.786 16.786 16.786 0 0 1 16.786 16.786z" clip-path="url(#clipath_lpe_path-effect107853)" stroke="current" stroke-width=".4"/>
+   <path d="m14.99 16.336v5.8208s-3.9 1.0951-3.9-2.973 3.9-2.8478 3.9-2.8478z"/>
+  </g>
+ </g>
+</svg>

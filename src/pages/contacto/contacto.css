@@ -1,0 +1,128 @@
+@import '../../variables.css';
+.correo_exitoso_close{
+    position: absolute;
+    opacity: 0;
+    z-index: -1000;
+}
+.correo_exitoso_open{
+    position: absolute;
+    top: 450px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #0fbd45;
+    transform: translateY(-400px);
+    padding: 10px;
+    outline: 1px solid #00000017;
+    border-radius: 8px;
+    transition: transform 1.6s ease-out;
+    animation: alternate;
+    z-index: 1000;
+    background-color: #fff;
+}
+.correo_exitoso > svg{
+    font-size: 3em;
+}
+.content-triangle{
+    width: 600px;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.content-form{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    height: 100%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #80808029;
+}
+.contacto > input, .contacto > textarea {
+    width: 80%;
+}
+.content__input{
+    width: 90%;
+}
+.content__input > input{
+    width: 90%;
+    border-style: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+}
+.content__input > textarea {
+    outline: none;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    max-width: 440px;
+    padding: 10px;
+    margin: 10px;
+}
+.contacto > input[type="submit"]{
+    cursor: pointer;
+    border-style: none;
+    margin: 10px 0;
+    padding: 10px 0;
+    color: #fff;
+    background-color: var(--blueDark);
+}
+.barra{
+    position: absolute;
+    bottom: -48px;
+    width: 100%;
+    height: 300px;
+    background: #2e6888;
+    z-index: -1;
+}
+.triangle-left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0; 
+    height: 0; 
+    border-left: 600px solid #3e7ea1;
+    border-top: 250px solid transparent;
+    border-bottom: 0 solid transparent;
+    z-index: 1; 
+}
+
+
+.form__error{
+    font-size: 10px;
+    color: red;
+    font-family: sans-serif;
+    display: block;
+    margin-bottom: 15px;
+}
+.triangle-right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0; 
+    height: 0; 
+    border-right: 600px solid #4b88a7;
+    border-top: 250px solid transparent;
+    border-bottom: 0 solid transparent; 
+}
+
+@media only screen and (max-width: 600px) {
+    .content-triangle {
+        width: 350px;
+    }
+    .content__input > textarea {
+        width: 90%;
+    }
+  }

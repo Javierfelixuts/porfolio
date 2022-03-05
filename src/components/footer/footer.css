@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    min-height: 200px;
+    background-color: var(--blueDark);
+}
+.footer__content-item{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__copyright{
+    display: block;
+    color: var(--orangePeach);
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px){
+    .footer__content-item{
+        flex-direction: column;
+    }
+}
