@@ -1,5 +1,4 @@
 import React from 'react'
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 import { lenguajesFrontend } from '../../data/lenguajesFrontend'
 import { lenguajesBackend } from '../../data/lenguajesBackend'
 import { lenguajesSQL } from '../../data/lenguajesSQL'

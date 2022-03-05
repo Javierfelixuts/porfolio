@@ -1,7 +1,5 @@
 import React from 'react'
 import WifiTetheringIcon from '@mui/icons-material/WifiTethering';
-import WbIncandescentIcon from '@mui/icons-material/WbIncandescent';
-import WarehouseIcon from '@mui/icons-material/Warehouse';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './verticalTimeLine.css'

@@ -1,9 +1,7 @@
 import React from 'react'
 import WarehouseIcon from '@mui/icons-material/Warehouse';
-import HiveIcon from '@mui/icons-material/Hive';
 import LanguageIcon from '@mui/icons-material/Language';
 import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import { VerticalTimeLine } from '../../components/timeline/VerticalTimeLine';
@@ -11,13 +9,6 @@ import Mensaje from '../../components/mensaje/Mensaje';
  
 
 const Educacion = () => {
-  const [expanded, setExpanded] = React.useState(false);
-
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false);
-  };
-
-
   return (
     <>
       <center>

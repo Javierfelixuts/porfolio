@@ -1,5 +1,4 @@
 import React from 'react'
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 import './bienvenida.css'
 import {Animated} from "react-animated-css";
 import profile from '../../assets/images/profile.webp'
@@ -12,7 +11,7 @@ const Bienvenida = () => {
     <main className="content-profile">
 
         <div className="profile">
-            {/* Animacion hecha con la libreria "react-scroll-motion"  */}
+            {/* Animacion hecha con la libreria "react-animated-css"  */}
         <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
             <img className="scaleImage" src={profile} alt="perfil" srcSet={profile} />
         </Animated>
