@@ -1,8 +1,10 @@
 *{
   margin: 0;
 }
+
 html{
   font-family: 'Big Shoulders Display', cursive;
+  
 /*   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
 }
 .App{
@@ -11,4 +13,5 @@ html{
   align-items: center;
   flex-direction: column;
 }
+
 
