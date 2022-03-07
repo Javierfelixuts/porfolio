@@ -25,7 +25,6 @@ const Educacion = () => {
       </center>
       <div className="overflow">
 
-        <center>
             <center>
             <h2>MI EDUCACIÓN</h2>
           </center>
@@ -84,7 +83,6 @@ const Educacion = () => {
           />
             <br/>
             <br/>
-          </center>
       </div>
 
         <Mensaje mensaje={"Los cursos y escuelas antes mencionados son de los mas importantes, pero tambén he seguido muchos tutoriales en YouTube y otras páginas"}/>

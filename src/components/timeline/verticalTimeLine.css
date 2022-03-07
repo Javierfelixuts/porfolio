@@ -64,6 +64,7 @@
 }
 .vertical__resume > span > h6 {
     font-family: 'Big Shoulders Display', cursive;
+    font-size: 1em;
 }
 .middle__bar{
     width: 3px;
