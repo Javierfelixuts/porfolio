@@ -62,6 +62,9 @@
     width: 430px;
     margin: 0 auto;
 }
+.vertical__resume > span > h6 {
+    font-family: 'Big Shoulders Display', cursive;
+}
 .middle__bar{
     width: 3px;
     height: 40px;

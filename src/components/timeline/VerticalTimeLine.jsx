@@ -48,7 +48,7 @@ export const VerticalTimeLine = ({icon, fecha, empresa, order1, order2, texto, f
         </div>
         <div className="vertical__resume">
           <span>
-            {texto}
+            <h6>{texto}</h6>
           </span>
         </div>
   
