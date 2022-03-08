@@ -5,6 +5,7 @@ import HiveIcon from '@mui/icons-material/Hive';
 import CardTravelIcon from '@mui/icons-material/CardTravel';
 import { VerticalTimeLine } from '../../components/timeline/VerticalTimeLine'
 import './experiencia.css'
+import ScrollDown from '../../components/scrollDown/ScrollDown';
 
 const Experiencia = () => {
   return (
@@ -21,7 +22,8 @@ const Experiencia = () => {
           </div>
         </div>
       </center>
-    <div className='mb-6 overflow'>
+      <ScrollDown />
+    <div className='overflow'>
       
       <center>
         <h2>EXPERIENCIA EN EMPRESAS</h2>

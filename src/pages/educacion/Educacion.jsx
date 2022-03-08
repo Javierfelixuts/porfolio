@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 
 import { VerticalTimeLine } from '../../components/timeline/VerticalTimeLine';
 import Mensaje from '../../components/mensaje/Mensaje';
+import ScrollDown from '../../components/scrollDown/ScrollDown';
  
 
 const Educacion = () => {
@@ -23,11 +24,13 @@ const Educacion = () => {
           </div>
         </div>
       </center>
+        <ScrollDown />
+        
       <div className="overflow">
 
-            <center>
-            <h2>MI EDUCACIÓN</h2>
-          </center>
+              <center>
+              <h2>MI EDUCACIÓN</h2>
+            </center>
         {/* VerticalTimeLine tiene dos propiedades extras
         
         cuanto quieres posicionar los elementos del lado derecho, se necesitan las dos propiedades
@@ -60,7 +63,9 @@ const Educacion = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="center-center"
           className="animate">
-            <h2>CURSOS</h2>
+            <center>
+              <h2>CURSOS</h2>
+            </center>
             <br/>
               <br/>
           </div>

@@ -7,9 +7,9 @@ const Home = () => {
   return (
     <>
         <Bienvenida />
-        <Mensaje
+        {/* <Mensaje
           mensaje={" Estos son los lenguajes que he aprendido a lo largo de mi carrera para ser Programador Web ademas algunas herramientas que me ha tocado utilizar."}
-        />
+        /> */}
         <Tecnologias />
     </>
   )

@@ -60,7 +60,7 @@ const Contacto = () => {
         <center>
           <h2>CONTACTAME</h2>
           <h3>
-            <a href="https://api.whatsapp.com/send/?phone=6441077450&text&app_absent=0" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send/?phone=+526441077450&text&app_absent=0" target="_blank" rel="noopener noreferrer">
               Vía whatsapp  <WhatsAppIcon /></a>
             </h3>
         </center>
