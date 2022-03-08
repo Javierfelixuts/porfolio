@@ -4,7 +4,7 @@ import './scrollDown.css'
 const ScrollDown = () => {
   return (
     <div className="container">
-        <div classNameName="container__chevron">
+        <div className="container__chevron">
             <div className="chevron"></div>
             <div className="chevron"></div>
             <div className="chevron"></div>
