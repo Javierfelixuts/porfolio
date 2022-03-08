@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import WarehouseIcon from '@mui/icons-material/Warehouse';
 import LanguageIcon from '@mui/icons-material/Language';
 import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
@@ -10,6 +10,16 @@ import ScrollDown from '../../components/scrollDown/ScrollDown';
  
 
 const Educacion = () => {
+  useEffect(()=>{
+    window.scrollTo( 0, 0 );
+  })
+
+  const moveDownScroll = () => {
+    window.scrollTo( {
+      top: 400,
+      behavior: 'smooth',
+    } );
+  }
   return (
     <>
       <center>
@@ -24,7 +34,9 @@ const Educacion = () => {
           </div>
         </div>
       </center>
-        <ScrollDown />
+        <div className="clickScrol" onClick={moveDownScroll}>
+          <ScrollDown />
+        </div>
         
       <div className="overflow">
 
@@ -74,8 +86,7 @@ const Educacion = () => {
             icon={<LanguageIcon />}
             fecha={"2021 - ACTUAL"}
             empresa={"UDEMY"}
-            order1={2}
-            order2={1}
+            
             texto={"React: De cero a experto ( Hooks y MERN ) "} 
             fade="fade-right"
             />
@@ -83,6 +94,8 @@ const Educacion = () => {
             icon={<LanguageIcon />}
             fecha={"2019 - 2020"}
             empresa={"UDEMY"}
+            order1={2}
+            order2={1}
             texto={"Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL"}  
             fade="fade-left" 
           />

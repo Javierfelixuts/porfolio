@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import WarehouseIcon from '@mui/icons-material/Warehouse';
 import ShareIcon from '@mui/icons-material/Share';
 import HiveIcon from '@mui/icons-material/Hive';
@@ -8,6 +8,15 @@ import './experiencia.css'
 import ScrollDown from '../../components/scrollDown/ScrollDown';
 
 const Experiencia = () => {
+  useEffect(()=>{
+    window.scrollTo( 0, 0 );
+  })
+  const moveDownScroll = () => {
+    window.scrollTo( {
+      top: 400,
+      behavior: 'smooth',
+    } );
+  }
   return (
     <>
     <center>
@@ -22,7 +31,9 @@ const Experiencia = () => {
           </div>
         </div>
       </center>
-      <ScrollDown />
+      <div className="clickScrol" onClick={moveDownScroll}>
+          <ScrollDown />
+        </div>
     <div className='overflow'>
       
       <center>

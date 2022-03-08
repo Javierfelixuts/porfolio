@@ -1,13 +1,22 @@
 @import '../../variables.css';
-.container {
-    position: relative;
+.container{
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    margin-bottom: 30px;
+}
+.container__chevron {
+    position: relative;
+    width: 27px;
+    height: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-bottom: 30px;
+    cursor: pointer;
   }
   .chevron {
     position: absolute;
@@ -16,6 +25,7 @@
     opacity: 0;
     transform: scale3d(0.5, 0.5, 0.5);
     animation: move 3s ease-out infinite;
+    cursor: pointer;
   }
   
   .chevron:first-child {
