@@ -6,15 +6,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    margin-bottom: 20px;
 }
 .container__chevron {
     position: relative;
     width: 27px;
     height: 2px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    flex-direction: column-reverse;
     padding-bottom: 30px;
     cursor: pointer;
   }
