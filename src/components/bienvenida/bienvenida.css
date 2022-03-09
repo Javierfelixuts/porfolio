@@ -23,6 +23,8 @@
     border: 6px solid var(--blueDark);
 }
 .scaleImage{
+    width: 10em;
+    height: 13em;
     animation: scaleImg 5ms linear;
 }
 @keyframes scaleImg {

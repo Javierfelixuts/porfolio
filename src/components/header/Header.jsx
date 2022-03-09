@@ -12,7 +12,7 @@ const Header = () => {
   const handleClickMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
- console.log(window.onscroll)
+  console.log('Gekllo')
   return (
     <>
     <span className='icon-menu' onClick={handleClickMenu}>
@@ -23,7 +23,7 @@ const Header = () => {
           <nav>
                   <NavLink to="/" >
                   
-                      <div className="logo animate__animated animate__bounc"  onClick={handleClickMenu}>JAFT</div>
+                      <div className="logo animate__animated animate__bounc" aria-label={'JAFT - LOGO'}  onClick={handleClickMenu}>JAFT</div>
                   </NavLink>
                   <div className="content__links">
 

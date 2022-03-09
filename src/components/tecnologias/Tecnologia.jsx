@@ -27,7 +27,7 @@ const Tecnologia = ({lenguaje, classN}) => {
   return (
     <>
     <Animated animationIn={classN} animationOut="fadeOut" isVisible={true}>
-          <lenguaje.image className="fillIcon"/>
+          <lenguaje.image className="fillIcon" aria-label={lenguaje.lenguaje}/>
           <DivBar lenguaje={lenguaje} style={{alignSelf: 'flex-start'}}><SpanPercent>{lenguaje.skill}%</SpanPercent></DivBar>
     </Animated>
 
