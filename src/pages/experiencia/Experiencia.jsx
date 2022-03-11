@@ -34,7 +34,7 @@ const Experiencia = () => {
       <div className="clickScrol" onClick={moveDownScroll}>
           <ScrollDown />
         </div>
-    <div className='overflow'>
+    <div className='overflow mb-6'>
       
       <center>
         <h2>EXPERIENCIA EN EMPRESAS</h2>
