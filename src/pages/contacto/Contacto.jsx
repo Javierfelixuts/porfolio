@@ -16,7 +16,10 @@ const Contacto = () => {
 
   const [correoEnviado, setCorreoEnviado] = useState(false)
 
-
+//<h3>
+//<a href="https://api.whatsapp.com/send/?phone=+{number}&text&app_absent=0" target="_blank" rel="noopener noreferrer">
+//Vía whatsapp  <WhatsAppIcon /></a>
+//</h3>
   const form = useRef();
   const user_name = useRef();
   const user_email = useRef();
@@ -59,10 +62,7 @@ const Contacto = () => {
       <div className="content-form">
         <center>
           <h2>CONTACTAME</h2>
-          <h3>
-            <a href="https://api.whatsapp.com/send/?phone=+526441077450&text&app_absent=0" target="_blank" rel="noopener noreferrer">
-              Vía whatsapp  <WhatsAppIcon /></a>
-            </h3>
+          
         </center>
         <form className='contacto' ref={form} onSubmit={sendEmail}>
         <div className="content__input">
