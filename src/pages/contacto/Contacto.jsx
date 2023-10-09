@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react'
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import emailjs from '@emailjs/browser';
 
 import './contacto.css'
@@ -62,7 +61,6 @@ const Contacto = () => {
       <div className="content-form">
         <center>
           <h2>CONTACTAME</h2>
-          
         </center>
         <form className='contacto' ref={form} onSubmit={sendEmail}>
         <div className="content__input">
