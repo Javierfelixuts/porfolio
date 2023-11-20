@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="footer__item">
               <a className='footer__socials' href="https://mail.google.com/mail/u/2/?ogbl#inbox" target="_blank" rel="noopener noreferrer">
                 <MarkEmailReadIcon style={{marginRight:spaceBetweenSocialIcons}} />
-                javierantoniofelixtorres@gmail.com
+                felixtorresjavierantonio@gmail.com
               </a>
             </div>
             <div className="footer__item">
