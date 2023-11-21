@@ -67,10 +67,7 @@ const Contacto = () => {
     <div className="content-triangle">
       <div className="content-form">
         <center>
-        <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-          <h2 className='text-3xl font-bold underline'>CONTACTAME</h2>
+          <h2 className='text-3xl font-bold'>CONTACTAME</h2>
         </center>
         <form className='contacto' ref={form} onSubmit={sendEmail}>
         <div className="content__input mb-10">
