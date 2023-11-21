@@ -46,7 +46,9 @@ if (currentMonth < birthMonth || (currentMonth === birthMonth && currentDay < bi
 
                 <div className="profile-body">
                     <h2>Programador Frontend </h2>
-                    Mi nombre es Javier Antonio Félix Torres, tengo { age } años soy de Cd. Obregón Sonora, México. Soy un apasionado por la programación y con mucho entusiasmo 
+                    Mi nombre es Javier Antonio Félix Torres, tengo { age } años soy de Cd. Obregón Sonora, México. 
+                    Tengo mas de 6 años de experienca en el Desarrollo Web.
+                    Soy un apasionado por la programación y con mucho entusiasmo 
                     por seguir creciendo en temas de tecnologías.
                 </div>
             </div>
