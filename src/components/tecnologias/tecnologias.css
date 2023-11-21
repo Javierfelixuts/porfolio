@@ -10,7 +10,6 @@
 .fillIcon{
     fill: var(--blueDark);
     stroke: var(--blueDark);
-    margin-bottom: 10px;
 }
 .content-lenguajes{
     display: flex;

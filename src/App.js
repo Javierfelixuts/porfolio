@@ -22,7 +22,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={
-        <Suspense fallback={<>...</>}>
+        <Suspense fallback={<>...zzzzzz</>}>
         <Home/>
       </Suspense>
         } />

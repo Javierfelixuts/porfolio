@@ -3,6 +3,27 @@ import './bienvenida.css'
 import {Animated} from "react-animated-css";
 import profile from '../../assets/images/profile.webp'
 const Bienvenida = () => {
+
+    // User's date of birth (in this example, setting a sample date)
+const birthDate = new Date('1995-11-11'); // You can change this date to yours
+
+// Get the current date
+const currentDate = new Date();
+
+// Calculate the difference in years
+let age = currentDate.getFullYear() - birthDate.getFullYear();
+
+// Check if this year's birthday has passed
+const currentMonth = currentDate.getMonth();
+const currentDay = currentDate.getDate();
+const birthMonth = birthDate.getMonth();
+const birthDay = birthDate.getDate();
+
+if (currentMonth < birthMonth || (currentMonth === birthMonth && currentDay < birthDay)) {
+  age--; // Subtract one year if this year's birthday hasn't occurred yet
+}
+
+
   return (
     <>
     
@@ -25,7 +46,7 @@ const Bienvenida = () => {
 
                 <div className="profile-body">
                     <h2>Programador Frontend </h2>
-                    Mi nombre es Javier Antonio Félix Torres, tengo 26 años soy de Cd. Obregón Sonora, México. Soy un apasionado por la programación y con mucho entusiasmo 
+                    Mi nombre es Javier Antonio Félix Torres, tengo { age } años soy de Cd. Obregón Sonora, México. Soy un apasionado por la programación y con mucho entusiasmo 
                     por seguir creciendo en temas de tecnologías.
                 </div>
             </div>
