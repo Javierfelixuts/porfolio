@@ -10,7 +10,7 @@
 .fillIcon{
     fill: var(--blueDark);
     stroke: var(--blueDark);
-    margin-bottom: 10px;
+    width: 50px;
 }
 .content-lenguajes{
     display: flex;
@@ -18,7 +18,7 @@
     align-items: flex-end;
     flex-wrap: wrap;
     padding: 10px;
-    margin: 30px;
+    margin: 5px;
 }
 .content-lenguajes  > div{
     margin: 10px;

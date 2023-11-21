@@ -1,4 +1,5 @@
 import React, { Suspense, lazy } from 'react';
+import './index.css';
 import './App.css';
 import Header from './components/header/Header';
 import { Routes, Route } from "react-router-dom";
@@ -21,7 +22,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={
-        <Suspense fallback={<>...</>}>
+        <Suspense fallback={<>...zzzzzz</>}>
         <Home/>
       </Suspense>
         } />

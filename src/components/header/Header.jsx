@@ -23,7 +23,7 @@ const Header = () => {
           <nav>
                   <NavLink to="/" >
                   
-                      <div className="logo animate__animated animate__bounc" aria-label={'JAFT - LOGO'}  onClick={handleClickMenu}>JAFT</div>
+                      <div className="logo animate__animated animate__bounc p-2" aria-label={'JAFT - LOGO'}  onClick={handleClickMenu}>JAFT</div>
                   </NavLink>
                   <div className="content__links">
 

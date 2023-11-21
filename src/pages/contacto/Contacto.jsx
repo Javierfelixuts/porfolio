@@ -26,6 +26,7 @@ const Contacto = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    activateAnimation()
     console.log('input', form.current)
     user_name.current.value === ''? setErrorName('*Debes de incluir un nombre') : setErrorName('')
     user_email.current.value === '' ? setErrorEmail('*Debes de incluir un correo') : setErrorEmail('')
@@ -45,6 +46,12 @@ const Contacto = () => {
     setTimeout(() => {
       setCorreoEnviado(false)
     }, 4000)
+
+    function activateAnimation(){
+
+      form.current.style.transition = 'ease 1s';
+      form.current.style.transform = 'translateY(500px)';
+    }
   };
 
   return (
@@ -60,10 +67,10 @@ const Contacto = () => {
     <div className="content-triangle">
       <div className="content-form">
         <center>
-          <h2>CONTACTAME</h2>
+          <h2 className='text-3xl font-bold'>CONTACTAME</h2>
         </center>
         <form className='contacto' ref={form} onSubmit={sendEmail}>
-        <div className="content__input">
+        <div className="content__input mb-10">
           <label>Nombre</label>
           <input ref={user_name} type="text" name="user_name" />
           {errorName.length > 0 ? <span className='form__error'>{errorName}</span> : '' }
