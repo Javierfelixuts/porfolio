@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
           </div>
           <center>
-            <p className='footer__copyright'>&#169; Copyright 2022. Todos los derechos reservados</p>
+            <p className='footer__copyright'>&#169; Copyright 2023. Todos los derechos reservados</p>
           </center>
         </footer>
   )
