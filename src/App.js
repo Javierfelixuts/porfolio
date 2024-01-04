@@ -17,7 +17,7 @@ const Experiencia = lazy(() => import('./pages/experiencia/Experiencia'));
 const Educacion = lazy(() => import('./pages/educacion/Educacion'));
 const Contacto = lazy(() => import('./pages/contacto/Contacto'));
 
-const loading = false;
+var loading = false;
 
 setTimeout(() => { loading = true }, 3000)
 
