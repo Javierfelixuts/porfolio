@@ -29,7 +29,7 @@ if (currentMonth < birthMonth || (currentMonth === birthMonth && currentDay < bi
     
           
         
-    <main className="content-profile">
+    <main className="content-profile w-50">
 
         <div className="profile">
             {/* Animacion hecha con la libreria "react-animated-css"  */}
