@@ -1,5 +1,6 @@
 .main__tecnologias{
     z-index: -1;
+    width: 40vw;
 }
 .title-lenguajes{
     text-align: left;
@@ -14,18 +15,17 @@
 }
 .content-lenguajes{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-end;
     flex-wrap: wrap;
     padding: 10px;
     margin: 5px;
 }
 .content-lenguajes  > div{
-    margin: 10px;
-    width: 50px;
-    height: 50px;
+    margin: 3px;
+    width: 70px;
+    height: 70px;
     border: 1px solid #dadce0;
-    padding: 10px;
     border-radius: 50%;
     outline: 3px solid #80808012;
     display: flex;
@@ -52,6 +52,9 @@
 }
 .small_image{
     margin-bottom: 10px !important;
+}
+.custom-width > svg {
+    width: 40px;
 }
 
 @media only screen and (max-width: 600px) {
