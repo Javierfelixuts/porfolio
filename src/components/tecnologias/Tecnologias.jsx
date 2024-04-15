@@ -9,12 +9,12 @@ const Tecnologias = () => {
   
   return (
     <>
-    <div className="main__tecnologias">
+    <div className="main__tecnologias ">
       
           <h3 className='title-lenguajes'>FRONTEND</h3>
           <div className="content-lenguajes">
             {lenguajesFrontend.map((lenguaje,index) => (
-              <Tecnologia key={index} lenguaje={lenguaje} classN={'bounceInLeft'}/>
+              <Tecnologia key={index} lenguaje={lenguaje} classN={'bounceInLeft custom-width'}/>
             ))}
           </div>
         
