@@ -16,6 +16,7 @@ const Home = lazy(() => import('./pages/home/Home'));
 const Experiencia = lazy(() => import('./pages/experiencia/Experiencia'));
 const Educacion = lazy(() => import('./pages/educacion/Educacion'));
 const Contacto = lazy(() => import('./pages/contacto/Contacto'));
+const Projects = lazy(() => import('./pages/projects/Projects'));
 
 var loading = false;
 
@@ -50,6 +51,11 @@ function App() {
           <Route path="contacto" element={
             <Suspense fallback={<><Loading /></>}>
               <Contacto />
+            </Suspense>
+          } />
+          <Route path="projects" element={
+            <Suspense fallback={<><Loading /></>}>
+              <Projects />
             </Suspense>
           } />
         </Routes>
