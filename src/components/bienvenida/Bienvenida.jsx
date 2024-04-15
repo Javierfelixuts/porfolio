@@ -40,13 +40,12 @@ if (currentMonth < birthMonth || (currentMonth === birthMonth && currentDay < bi
             <div className="profile-facts">
                 <div className="title-profile">
 
-                    <h3>Hola, Soy</h3>
                     <h2>Javier Félix </h2>
+                    <h3>Frontend Developer</h3>
                 </div>
 
                 <div className="profile-body">
-                    <h2>Desarrollador Frontend </h2>
-                    Mi nombre es Javier Antonio Félix Torres, tengo { age } años soy de Cd. Obregón Sonora, México. 
+                    Javier Antonio Félix Torres, con { age } años, de Cd. Obregón Sonora, México. 
                     Tengo mas de 6 años de experienca en el Desarrollo Web.
                     Soy un apasionado por la programación y con mucho entusiasmo 
                     por seguir creciendo en temas de tecnologías.
