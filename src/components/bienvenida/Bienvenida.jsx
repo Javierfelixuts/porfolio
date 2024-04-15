@@ -26,12 +26,8 @@ const Bienvenida = () => {
 
     return (
         <>
-
-
-
-            <main className="content-profile w-50">
-
-                <div className="profile">
+            <main>
+                <div className="profile flex flex-col justify-between">
                     {/* Animacion hecha con la libreria "react-animated-css"  */}
                     <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
                         <img className="scaleImage" src={profile} alt="perfil" srcSet={profile} />
@@ -52,7 +48,6 @@ const Bienvenida = () => {
                             </div>
                         </div>
                     </Animated>
-
                 </div>
             </main>
         </>
