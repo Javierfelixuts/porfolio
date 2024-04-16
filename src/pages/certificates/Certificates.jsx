@@ -19,7 +19,8 @@ const Certificates = () => {
   } */
   return (
     <>
-        <h2>CERTIFICACIONES</h2>
+        <h2>CERTIFICATES</h2>
+        <p>COMING SOON</p>
     </>
   )
 }
