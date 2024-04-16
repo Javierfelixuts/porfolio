@@ -18,9 +18,6 @@ const Educacion = lazy(() => import('./pages/educacion/Educacion'));
 const Contacto = lazy(() => import('./pages/contacto/Contacto'));
 const Projects = lazy(() => import('./pages/projects/Projects'));
 
-var loading = false;
-
-setTimeout(() => { loading = true }, 3000)
 
 function App() {
   return (
