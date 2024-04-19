@@ -23,15 +23,15 @@ header > nav {
 
 }
 .logo{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     padding: 10px;
-    border: 1px solid var(--orangePeach);
-    font-size: 12px;
+    border: 5px solid var(--orangePeach);
+    font-size: 16px;
     letter-spacing: 2px;
     color: var(--orangePeach);
 }
@@ -72,7 +72,7 @@ a:hover{
     margin: 5px;
     background-color: var(--orangePeach);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .relleno{
         height: 0px;
     }

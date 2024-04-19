@@ -36,7 +36,8 @@ const Bienvenida = () => {
                         <div className="profile-facts">
                             <div className="title-profile">
 
-                                <h2>Javier Félix </h2>
+                                <h2>Javier Félix Torres</h2>
+                                <span className='mx-5'>|</span>
                                 <h3>Frontend Developer</h3>
                             </div>
 
