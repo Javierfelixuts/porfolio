@@ -39,6 +39,8 @@ Paleta de colores
   /* Track */
   ::-webkit-scrollbar-track {
     background: var(--yellowGold);
+    background: var(--orangePeach);
+
   }
   
   /* Handle */
