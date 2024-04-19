@@ -18,7 +18,6 @@
     max-width: 100%;
     border-radius: 50%;
     padding: 4px;
-    margin-right: 100px;
     border: 6px solid var(--blueDark);
 }
 .scaleImage{
@@ -36,13 +35,15 @@
 }
 .title-profile{
     font-size: 30px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    margin: 20px 10px 20px 0;
+    display: flex;
+    justify-content: center;
 }
-.title-profile > h2{
+.title-profile {
     border-bottom: 1px solid var(--blueDark);
 }
 .profile-body{
+    text-align: justify;
     max-width: 450px;
     margin-left: 10px;
 }
