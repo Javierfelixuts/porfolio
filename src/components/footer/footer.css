@@ -1,11 +1,10 @@
 .footer{
     width: 100%;
-    min-height: 200px;
+    min-height: 100px;
     background-color: var(--blueDark);
 }
 .footer__content-item{
     width: 100%;
-    min-height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
