@@ -6,7 +6,6 @@
     text-align: left;
     margin-left: 10px;
     color: var(--orangePeach);
-    margin-bottom: 20px;
 }
 .fillIcon{
     fill: var(--blueDark);
@@ -18,7 +17,6 @@
     justify-content: flex-start;
     align-items: flex-end;
     flex-wrap: wrap;
-    padding: 10px;
     margin: 5px;
 }
 .content-lenguajes  > div{
