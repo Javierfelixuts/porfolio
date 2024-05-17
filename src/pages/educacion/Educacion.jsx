@@ -22,7 +22,7 @@ const Educacion = () => {
   }
   return (
     <>
-      <center>
+     {/*  <center>
         <div className="content__experiencia">
           <div className="explicacion__experiencia">
             <h2>OBJETIVO</h2>
@@ -33,10 +33,10 @@ const Educacion = () => {
                algunas de manera autodidacta. </p>
           </div>
         </div>
-      </center>
-        <div className="clickScrol" onClick={moveDownScroll}>
+      </center> */}
+       {/*  <div className="clickScrol" onClick={moveDownScroll}>
           <ScrollDown />
-        </div>
+        </div> */}
         
       <div className="overflow">
 
@@ -103,7 +103,7 @@ const Educacion = () => {
             <br/>
       </div>
 
-        <Mensaje mensaje={"Los cursos y escuelas antes mencionados son de los mas importantes, pero tambén he seguido muchos tutoriales en YouTube y otras páginas"}/>
+        {/* <Mensaje mensaje={"Los cursos y escuelas antes mencionados son de los mas importantes, pero tambén he seguido muchos tutoriales en YouTube y otras páginas"}/> */}
     </>
   );
 }
