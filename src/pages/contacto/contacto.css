@@ -48,27 +48,27 @@
     padding: 10px;
     border: 1px solid #80808029;
 }
-.contacto > input, .contacto > textarea {
-    width: 80%;
+.contacto > input {
+    width: 90%;
 }
 .content__input{
     width: 90%;
+    display: flex;
 }
 .content__input > input{
     width: 90%;
-    border-style: none;
     border-bottom: 1px solid gray;
-    padding: 0 10px 10px 10px;
+    margin: 0px 10px;
+    padding: 0;
     outline: none;
 }
 .content__input > textarea {
-    outline: none;
-    display: flex;
-    width: 100%;
+    width: 90%;
     height: 100px;
     max-width: 440px;
-    padding: 10px;
-    margin: 10px;
+    margin: 0px 10px;
+    outline: 1px solid gray;
+    padding: 0 10px 10px 10px;
 }
 .contacto > input[type="submit"]{
     cursor: pointer;
