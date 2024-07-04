@@ -18,7 +18,6 @@ const Header = () => {
       <span className='icon-menu' onClick={handleClickMenu}>
         {isMenuOpen ? <CloseIcon fontSize='large' /> : <MenuOpenIcon fontSize='large' />}
       </span>
-      <div className="relleno"></div>
       <header className={isMenuOpen ? 'openMenu' : 'closeMenu'}>
         <nav>
           <NavLink to="/" >

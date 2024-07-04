@@ -19,6 +19,9 @@
     flex-wrap: wrap;
     margin: 5px;
 }
+.main__tecnologias  {
+    margin: 0 auto;
+}
 .content-lenguajes  > div{
     margin: 3px;
     width: 70px;
