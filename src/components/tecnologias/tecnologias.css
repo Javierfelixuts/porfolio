@@ -1,6 +1,8 @@
 .main__tecnologias{
     z-index: -1;
-    width: 40vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
 }
 .title-lenguajes{
     text-align: left;
@@ -19,11 +21,9 @@
     flex-wrap: wrap;
     margin: 5px;
 }
-.main__tecnologias  {
-    margin: 0 auto;
-}
+
 .content-lenguajes  > div{
-    margin: 3px;
+    margin: 10px;
     width: 70px;
     height: 70px;
     border: 1px solid #dadce0;

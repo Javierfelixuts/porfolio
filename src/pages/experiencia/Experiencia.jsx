@@ -19,7 +19,7 @@ const Experiencia = () => {
   }
   return (
     <>
-    <center>
+    {/* <center>
         <div className="content__experiencia">
           <div className="explicacion__experiencia">
             <h2>META</h2>
@@ -29,12 +29,13 @@ const Experiencia = () => {
             <p>Las siguientes empresas han sido parte de mi formación para ser <em>Programador Web</em> y  adquirir los conocimientos que hoy poseo, cada una en forma distina
               ya sea para cumplir con mis estadías profesionales o para el campo laboral. </p>
           </div>
+
         </div>
-      </center>
+      </center> */}
       <div className="clickScrol" onClick={moveDownScroll}>
           <ScrollDown />
         </div>
-    <div className='overflow mb-6'>
+    <div className='w-full overflow mb-6'>
       
       <center>
         <h2>EXPERIENCIA EN EMPRESAS</h2>
@@ -47,6 +48,7 @@ const Experiencia = () => {
           order2={1}
           texto={"Mi empresa actualmente"} 
           />
+     
       <VerticalTimeLine
           icon={<HiveIcon />}
           fecha={"2020 - ACTUAL"}

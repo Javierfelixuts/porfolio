@@ -12,8 +12,8 @@ export const VerticalTimeLine = ({icon, fecha, empresa, order1, order2, texto, f
         {/* Icon */}
         {/* Animaciones hecahs con la libreria de aos */}
         <div 
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-center"
+        data-aos="fade-in"
+        data-aos-anchor-placement="top-center"
         className="vertical__icon-left">
           {icon}
         </div>

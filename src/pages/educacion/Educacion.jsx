@@ -38,7 +38,7 @@ const Educacion = () => {
           <ScrollDown />
         </div> */}
         
-      <div className="overflow">
+      <div className="overflow w-full">
 
               <center>
               <h2>MI EDUCACIÓN</h2>

@@ -90,16 +90,18 @@ a:hover{
         top: 30px;
         left: 0;
         opacity: 1;
+        width: 100%;
+        text-align: center;
         
         
     }
     header.openMenu{
         max-height: 500px;
-        transition: max-height .5s ease-in;
+        transition: all .5s ease-in;
     }
     header.closeMenu{
         max-height: 0;
-        transition: max-height .5s ease-out; 
+        transition: all .5s ease-out; 
     }
     .icon-menu{
         display: block;

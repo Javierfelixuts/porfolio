@@ -10,6 +10,7 @@ const Header = () => {
   /* isMenuOpen controla el menu en tamaño responsive */
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const handleClickMenu = () => {
+    console.log("clikc menu")
     setIsMenuOpen(!isMenuOpen)
   }
   console.log('Gekllo')
@@ -19,32 +20,32 @@ const Header = () => {
         {isMenuOpen ? <CloseIcon fontSize='large' /> : <MenuOpenIcon fontSize='large' />}
       </span>
       <header className={isMenuOpen ? 'openMenu' : 'closeMenu'}>
-        <nav>
-          <NavLink to="/" >
+        <nav className='flex flex-col items-center'>
+          <NavLink className="mx-auto" to="/" >
 
-            <div className="logo animate__animated animate__bounc p-2" aria-label={'JAFT - LOGO'} onClick={handleClickMenu}>JAFT</div>
+            <div className="logo animate__animated animate__bounc p-2" aria-label={'JAFT - LOGO'} onClick={() => setIsMenuOpen(false)}>JAFT</div>
           </NavLink>
           <div className="content__links">
 
             <NavLink
               to="/"
-              onClick={handleClickMenu}
+              onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) => isActive ? 'nav-link' : ''}
             > INICIO</NavLink>
 
-            <NavLink to="experiencia" onClick={handleClickMenu}
+            <NavLink to="experiencia" onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) => isActive ? 'nav-link' : ''}
             >EXPERIENCIA</NavLink>
-            <NavLink to="educacion" onClick={handleClickMenu}
+            <NavLink to="educacion" onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) => isActive ? 'nav-link' : ''}
             >EDUCACION</NavLink>
-            <NavLink to="certificates" onClick={handleClickMenu}
+            <NavLink to="certificates" onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) => isActive ? 'nav-link' : ''}
             >CERTIFICADOS</NavLink>
-            <NavLink to="projectss" onClick={handleClickMenu}
+            <NavLink to="projectss" onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) => isActive ? 'nav-link' : ''}
             >PROYECTOS</NavLink>
-            <NavLink to="contacto" onClick={handleClickMenu}
+            <NavLink to="contacto" onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) => isActive ? 'nav-link' : ''}
             >CONTACTO</NavLink>
           </div>
