@@ -3,8 +3,10 @@
     height: 200px;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 60px;
 
+}
+.verticalTimeLine:last-child{
+    margin-bottom: 40px;
 }
 .m-1{
     margin: 10px;

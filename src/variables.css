@@ -33,9 +33,9 @@ Paleta de colores
 ::-webkit-scrollbar {
     width: 8px;
   }
-  ::-webkit-scrollbar:hover{
+  /* ::-webkit-scrollbar:hover{
     width: 10px;
-  } 
+  }  */
   /* Track */
   ::-webkit-scrollbar-track {
     background: var(--yellowGold);
@@ -49,6 +49,6 @@ Paleta de colores
   }
   
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+ /*  ::-webkit-scrollbar-thumb:hover {
     background: var(--orangePeach);
-  }
+  } */

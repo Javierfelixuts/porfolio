@@ -5,8 +5,6 @@ import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import 'aos/dist/aos.css';
 
 import { VerticalTimeLine } from '../../components/timeline/VerticalTimeLine';
-import Mensaje from '../../components/mensaje/Mensaje';
-import ScrollDown from '../../components/scrollDown/ScrollDown';
  
 
 const Educacion = () => {
@@ -14,15 +12,10 @@ const Educacion = () => {
     window.scrollTo( 0, 0 );
   })
 
-  const moveDownScroll = () => {
-    window.scrollTo( {
-      top: 400,
-      behavior: 'smooth',
-    } );
-  }
+ 
   return (
     <>
-      <center>
+     {/*  <center>
         <div className="content__experiencia">
           <div className="explicacion__experiencia">
             <h2>OBJETIVO</h2>
@@ -33,12 +26,12 @@ const Educacion = () => {
                algunas de manera autodidacta. </p>
           </div>
         </div>
-      </center>
-        <div className="clickScrol" onClick={moveDownScroll}>
+      </center> */}
+       {/*  <div className="clickScrol" onClick={moveDownScroll}>
           <ScrollDown />
-        </div>
+        </div> */}
         
-      <div className="overflow">
+      <div className="overflow w-full">
 
               <center>
               <h2>MI EDUCACIÓN</h2>
@@ -103,7 +96,7 @@ const Educacion = () => {
             <br/>
       </div>
 
-        <Mensaje mensaje={"Los cursos y escuelas antes mencionados son de los mas importantes, pero tambén he seguido muchos tutoriales en YouTube y otras páginas"}/>
+        {/* <Mensaje mensaje={"Los cursos y escuelas antes mencionados son de los mas importantes, pero tambén he seguido muchos tutoriales en YouTube y otras páginas"}/> */}
     </>
   );
 }

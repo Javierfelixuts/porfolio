@@ -34,11 +34,11 @@ const Bienvenida = () => {
                     </Animated>
                     <Animated animationIn="bounceInDown" animationOut="fadeOut" isVisible={true}>
                         <div className="profile-facts">
-                            <div className="title-profile">
+                            <div className="text-sm title-profile">
 
-                                <h2>Javier Félix Torres</h2>
-                                <span className='mx-5'>|</span>
-                                <h3>Frontend Developer</h3>
+                                <h2 className='m-1 text-[20px]'>Javier Félix Torres</h2>
+                                <span className='mx-2 w-[2px] h-8 bg-black'></span>
+                                <h3 className='m-1 text-[20px]'>Frontend Developer</h3>
                             </div>
 
                             <div className="profile-body">

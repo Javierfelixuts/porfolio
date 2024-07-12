@@ -12,6 +12,14 @@ html{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: calc(100% - 100px);
+  position: relative;
+  left: 100px;
 }
-
+@media only screen and (max-width: 768px) {
+  .App{
+    width: 100%;
+    left: 0;
+  }
+}
 

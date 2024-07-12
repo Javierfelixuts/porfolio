@@ -4,22 +4,23 @@
     height: 150px;
 }
 header{
-    width: 100%;
+    width: 100px;
+    height: 100vh;
     background-color: var(--blueDark);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     color: var(--orangePeach);
     z-index: 1000;
     position: fixed;
+    font-size: 1rem;
     top: 0;
     left: 0;
 }
 header > nav {
     width: 90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: block;
+    text-align: center;
 
 }
 .logo{
@@ -41,6 +42,10 @@ header > nav > ul {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+header > nav > .content__links {
+    display: flex;
+    flex-direction: column;
 }
 li{
     list-style: none;
@@ -85,16 +90,18 @@ a:hover{
         top: 30px;
         left: 0;
         opacity: 1;
+        width: 100%;
+        text-align: center;
         
         
     }
     header.openMenu{
         max-height: 500px;
-        transition: max-height .5s ease-in;
+        transition: all .5s ease-in;
     }
     header.closeMenu{
         max-height: 0;
-        transition: max-height .5s ease-out; 
+        transition: all .5s ease-out; 
     }
     .icon-menu{
         display: block;
