@@ -5,8 +5,6 @@ import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import 'aos/dist/aos.css';
 
 import { VerticalTimeLine } from '../../components/timeline/VerticalTimeLine';
-import Mensaje from '../../components/mensaje/Mensaje';
-import ScrollDown from '../../components/scrollDown/ScrollDown';
  
 
 const Educacion = () => {
@@ -14,12 +12,7 @@ const Educacion = () => {
     window.scrollTo( 0, 0 );
   })
 
-  const moveDownScroll = () => {
-    window.scrollTo( {
-      top: 400,
-      behavior: 'smooth',
-    } );
-  }
+ 
   return (
     <>
      {/*  <center>

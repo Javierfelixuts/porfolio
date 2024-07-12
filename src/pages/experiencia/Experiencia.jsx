@@ -7,6 +7,8 @@ import { VerticalTimeLine } from '../../components/timeline/VerticalTimeLine'
 import './experiencia.css'
 import ScrollDown from '../../components/scrollDown/ScrollDown';
 
+import ojai from '../../assets/images/experience/logo_ojai.png';
+
 const Experiencia = () => {
   useEffect(()=>{
     window.scrollTo( 0, 0 );
@@ -39,6 +41,7 @@ const Experiencia = () => {
       
       <center>
         <h2>EXPERIENCIA EN EMPRESAS</h2>
+        
       </center>
       <VerticalTimeLine
           icon={<WarehouseIcon />}
