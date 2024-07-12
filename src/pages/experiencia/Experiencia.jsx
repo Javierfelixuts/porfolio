@@ -7,7 +7,6 @@ import { VerticalTimeLine } from '../../components/timeline/VerticalTimeLine'
 import './experiencia.css'
 import ScrollDown from '../../components/scrollDown/ScrollDown';
 
-import ojai from '../../assets/images/experience/logo_ojai.png';
 
 const Experiencia = () => {
   useEffect(()=>{
