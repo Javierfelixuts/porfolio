@@ -15,7 +15,7 @@ export const VerticalTimeLine = ({icon, fecha, empresa, order1, order2, texto, f
         data-aos="fade-in"
         data-aos-anchor-placement="top-center"
         className="vertical__icon-left">
-          {icon}
+          <img src={icon} alt={empresa}/>
         </div>
       </div>
       <div

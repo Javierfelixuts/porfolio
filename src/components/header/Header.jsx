@@ -42,7 +42,7 @@ const Header = () => {
             <NavLink to="certificates" onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) => isActive ? 'nav-link' : ''}
             >CERTIFICADOS</NavLink>
-            <NavLink to="projectss" onClick={() => setIsMenuOpen(false)}
+            <NavLink to="projects" onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) => isActive ? 'nav-link' : ''}
             >PROYECTOS</NavLink>
             <NavLink to="contacto" onClick={() => setIsMenuOpen(false)}

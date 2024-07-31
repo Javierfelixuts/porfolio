@@ -1,7 +1,38 @@
+import './projects.css';
 function Projects() {
     return (<>
-    <main>
-        <h3>Main projects</h3>
+    <h3 className='text-center p-10'>CERTIFICADOS</h3>
+      <main>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
     </main>
     </>)
 }

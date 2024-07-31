@@ -6,6 +6,13 @@ import CardTravelIcon from '@mui/icons-material/CardTravel';
 import { VerticalTimeLine } from '../../components/timeline/VerticalTimeLine'
 import './experiencia.css'
 import ScrollDown from '../../components/scrollDown/ScrollDown';
+import imgOjai from '../../assets/images/experience/logo_ojai.png';
+import imgCabsa from '../../assets/images/experience/logo_cabsa.png';
+import imgFinreg from '../../assets/images/experience/logo_finreg.png';
+import imgSomosMultimedia from '../../assets/images/experience/logo_somos_multimedia.jpg';
+import imgRubisco from '../../assets/images/experience/logo_rubisco.jpg';
+import imgAutomatic from '../../assets/images/experience/logo_automatic.png';
+import imgPepsico from '../../assets/images/experience/logo_pesico.jpg';
 
 
 const Experiencia = () => {
@@ -43,8 +50,28 @@ const Experiencia = () => {
         
       </center>
       <VerticalTimeLine
-          icon={<WarehouseIcon />}
-          fecha={"2019 - ACTUAL"}
+          icon={imgPepsico}
+          fecha={"2023 - 2024"}
+          empresa={"PEPSICO"}
+          texto={"Mi empresa actualmente"} 
+          />
+      <VerticalTimeLine
+          icon={imgAutomatic}
+          fecha={"2022 - 2023"}
+          empresa={"AD DESARROLLO"}
+          order1={2}
+          order2={1}
+          texto={"Mi empresa actualmente"} 
+          />
+      <VerticalTimeLine
+          icon={imgCabsa}
+          fecha={"2022 - 2023"}
+          empresa={"GRUPO CABSA"}
+          texto={"Mi empresa actualmente"} 
+          />
+      <VerticalTimeLine
+          icon={imgOjai}
+          fecha={"2019 - 2022"}
           empresa={"OJAI ALIMENTOS"}
           order1={2}
           order2={1}
@@ -52,14 +79,14 @@ const Experiencia = () => {
           />
      
       <VerticalTimeLine
-          icon={<HiveIcon />}
-          fecha={"2020 - ACTUAL"}
+          icon={imgRubisco}
+          fecha={"2020 - 2022"}
           empresa={"RUBISCO"}
           texto={"Empresa freelance"}  
           fade="fade-left" 
         />
         <VerticalTimeLine
-          icon={<ShareIcon />}
+          icon={imgSomosMultimedia}
           fecha={"2019"}
           empresa={"SOMOS MULTIMEDIA"}
           order1={2}
@@ -68,7 +95,7 @@ const Experiencia = () => {
           fade="fade-right" 
           />
         <VerticalTimeLine
-          icon={<CardTravelIcon />}
+          icon={imgFinreg}
           fecha={"2018"}
           empresa={"FINREG"}
           texto={"Financiera Regional"}  
