@@ -42,10 +42,7 @@ const Bienvenida = () => {
                             </div>
 
                             <div className="profile-body">
-                                Javier Antonio Félix Torres, con {age} años, de Cd. Obregón Sonora, México.
-                                Tengo mas de 6 años de experienca en el Desarrollo Web.
-                                Soy un apasionado por la programación y con mucho entusiasmo
-                                por seguir creciendo en temas de tecnologías.
+                                Desarrollador web apasionado por la programación y la resolución de problemas, con más de 6 años de experiencia. Comprometido con el aprendizaje continuo, responsable y respetuoso, con la visión de alcanzar tanto los objetivos personales como los de la empresa..
                             </div>
                         </div>
                     </Animated>

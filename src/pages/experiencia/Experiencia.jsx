@@ -51,54 +51,54 @@ const Experiencia = () => {
       </center>
       <VerticalTimeLine
           icon={imgPepsico}
-          fecha={"2023 - 2024"}
-          empresa={"PEPSICO"}
-          texto={"Mi empresa actualmente"} 
+          date={"2023 - 2024"}
+          company={"PEPSICO"}
+          description={"Mi company actualmente"} 
           />
       <VerticalTimeLine
           icon={imgAutomatic}
-          fecha={"2022 - 2023"}
-          empresa={"AD DESARROLLO"}
+          date={"2022 - 2023"}
+          company={"AD DESARROLLO"}
           order1={2}
           order2={1}
-          texto={"Mi empresa actualmente"} 
+          description={"Mi company actualmente"} 
           />
       <VerticalTimeLine
           icon={imgCabsa}
-          fecha={"2022 - 2023"}
-          empresa={"GRUPO CABSA"}
-          texto={"Mi empresa actualmente"} 
+          date={"2022 - 2023"}
+          company={"GRUPO CABSA"}
+          description={"Mi company actualmente"} 
           />
       <VerticalTimeLine
           icon={imgOjai}
-          fecha={"2019 - 2022"}
-          empresa={"OJAI ALIMENTOS"}
+          date={"2019 - 2022"}
+          company={"OJAI ALIMENTOS"}
           order1={2}
           order2={1}
-          texto={"Mi empresa actualmente"} 
+          description={"Mi company actualmente"} 
           />
      
       <VerticalTimeLine
           icon={imgRubisco}
-          fecha={"2020 - 2022"}
-          empresa={"RUBISCO"}
-          texto={"Empresa freelance"}  
+          date={"2020 - 2022"}
+          company={"RUBISCO"}
+          description={"company freelance"}  
           fade="fade-left" 
         />
         <VerticalTimeLine
           icon={imgSomosMultimedia}
-          fecha={"2019"}
-          empresa={"SOMOS MULTIMEDIA"}
+          date={"2019"}
+          company={"SOMOS MULTIMEDIA"}
           order1={2}
           order2={1}
-          texto={"Mis estadías profesionales"}  
+          description={"Mis estadías profesionales"}  
           fade="fade-right" 
           />
         <VerticalTimeLine
           icon={imgFinreg}
-          fecha={"2018"}
-          empresa={"FINREG"}
-          texto={"Financiera Regional"}  
+          date={"2018"}
+          company={"FINREG"}
+          description={"Financiera Regional"}  
           fade="fade-left" 
           />
       
