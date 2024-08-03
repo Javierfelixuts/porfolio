@@ -12,8 +12,9 @@ import imgFinreg from '../../assets/images/experience/logo_finreg.png';
 import imgSomosMultimedia from '../../assets/images/experience/logo_somos_multimedia.jpg';
 import imgRubisco from '../../assets/images/experience/logo_rubisco.jpg';
 import imgAutomatic from '../../assets/images/experience/logo_automatic.png';
-import imgPepsico from '../../assets/images/experience/logo_pesico.jpg';
-
+import imgPepsico from '../../assets/images/experience/logo_pepsico.jpg';
+import DescriptionTimeLine from '../../components/timeline/description/DescriptionTimeLine';
+import { workExperienceData } from '../../data/workExperience';
 
 const Experiencia = () => {
   useEffect(()=>{
@@ -49,58 +50,18 @@ const Experiencia = () => {
         <h2>EXPERIENCIA EN EMPRESAS</h2>
         
       </center>
-      <VerticalTimeLine
-          icon={imgPepsico}
-          date={"2023 - 2024"}
-          company={"PEPSICO"}
-          description={"Mi company actualmente"} 
+      {
+        workExperienceData.map(ele => {
+          return <VerticalTimeLine
+          icon={ele.icon}
+          jobTitle={ele.jobTitle}
+          date={ele.date}
+          company={ele.company}
+          description={ele.description} 
+          side={ele.side}
           />
-      <VerticalTimeLine
-          icon={imgAutomatic}
-          date={"2022 - 2023"}
-          company={"AD DESARROLLO"}
-          order1={2}
-          order2={1}
-          description={"Mi company actualmente"} 
-          />
-      <VerticalTimeLine
-          icon={imgCabsa}
-          date={"2022 - 2023"}
-          company={"GRUPO CABSA"}
-          description={"Mi company actualmente"} 
-          />
-      <VerticalTimeLine
-          icon={imgOjai}
-          date={"2019 - 2022"}
-          company={"OJAI ALIMENTOS"}
-          order1={2}
-          order2={1}
-          description={"Mi company actualmente"} 
-          />
-     
-      <VerticalTimeLine
-          icon={imgRubisco}
-          date={"2020 - 2022"}
-          company={"RUBISCO"}
-          description={"company freelance"}  
-          fade="fade-left" 
-        />
-        <VerticalTimeLine
-          icon={imgSomosMultimedia}
-          date={"2019"}
-          company={"SOMOS MULTIMEDIA"}
-          order1={2}
-          order2={1}
-          description={"Mis estadías profesionales"}  
-          fade="fade-right" 
-          />
-        <VerticalTimeLine
-          icon={imgFinreg}
-          date={"2018"}
-          company={"FINREG"}
-          description={"Financiera Regional"}  
-          fade="fade-left" 
-          />
+        })
+      }
       
     </div>
       </>
