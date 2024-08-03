@@ -34,12 +34,11 @@
     }
 }
 .title-profile{
-    font-size: 30px;
+    font-size: 2rem;
     margin: 20px 10px 20px 0;
     display: flex;
     justify-content: center;
-}
-.title-profile {
+    align-items: center;
     border-bottom: 1px solid var(--blueDark);
 }
 .profile-body{
@@ -61,5 +60,13 @@ main{
 @media only screen and (max-width: 600px) {
     .profile{
         margin-top: 20px;
+    }
+    .title-profile{
+        font-size: 1.5rem;
+        flex-direction: column;
+    }
+    .title-profile > span {
+        height: 2px;
+        width: 20px;
     }
 }
