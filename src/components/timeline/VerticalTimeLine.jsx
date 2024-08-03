@@ -4,11 +4,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './verticalTimeLine.css'
 
-export const VerticalTimeLine = ({icon, date, company, order1, order2, description, fade}) => {
+export const VerticalTimeLine = ({icon, jobTitle, date, company, side='left', description, fade}) => {
   AOS.init();
   return (
     <div className='verticalTimeLine'>
-      <div className="vertical__left  m-1" style={{order: order1}}>
+      <div className="vertical__left  m-1" style={{order: side==='left' ? 0 : 2}}>
         {/* Icon */}
         {/* Animaciones hecahs con la libreria de aos */}
         <div 
@@ -21,7 +21,7 @@ export const VerticalTimeLine = ({icon, date, company, order1, order2, descripti
       <div
          data-aos="fade-up"
          data-aos-anchor-placement="center-center"
-      className="vertical__middle-bar m-1" style={{order: order2}}>
+      className="vertical__middle-bar m-1" style={{order: side==='right' ? 1 : 0}}>
         {/* Bar */}
       
         <div className="bar"></div>
@@ -37,6 +37,8 @@ export const VerticalTimeLine = ({icon, date, company, order1, order2, descripti
         <div 
         
         className="content__vertical-context">
+          <h2>{jobTitle}</h2>
+          <div className="middle__bar"></div>
           <div className="vertical__fecha">
             <h3>{date}</h3>
           </div>
